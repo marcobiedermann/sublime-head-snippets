@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 <!-- Locks the screen into the specified orientation -->
 <meta name="screen-orientation" content="landscape/portrait">
 <!-- Display this page in fullscreen -->
@@ -15,9 +15,9 @@
 <!-- Disable the UC browser's feature of "scaling font up when there are many words in this page" -->
 <meta name="wap-font-scale" content="no">
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>head-uc</tabTrigger>
-  <description>HEAD UC Mobile Browser</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.html, source.php</scope>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>head-uc</tabTrigger>
+	<description>HEAD UC Mobile Browser</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.html, source.php</scope>
 </snippet>

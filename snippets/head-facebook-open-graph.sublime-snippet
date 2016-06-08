@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 <meta property="fb:app_id" content="123456789">
 <meta property="og:url" content="https://example.com/page.html">
 <meta property="og:type" content="website">
@@ -12,9 +12,9 @@
 <!-- Facebook: https://developers.facebook.com/docs/sharing/webmasters#markup -->
 <!-- Open Graph: http://ogp.me/ -->
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>head-fbog</tabTrigger>
-  <description>HEAD Facebook / Open Graph</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.html, source.php</scope>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>head-fbog</tabTrigger>
+	<description>HEAD Facebook / Open Graph</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.html, source.php</scope>
 </snippet>

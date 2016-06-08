@@ -1,13 +1,13 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 <link href="https://plus.google.com/+YourPage" rel="publisher">
 <meta itemprop="name" content="Content Title">
 <meta itemprop="description" content="Content description less than 200 characters">
 <meta itemprop="image" content="https://example.com/image.jpg">
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>head-gplus</tabTrigger>
-  <description>HEAD Google+ / Schema.org</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.html, source.php</scope>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>head-gplus</tabTrigger>
+	<description>HEAD Google+ / Schema.org</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.html, source.php</scope>
 </snippet>

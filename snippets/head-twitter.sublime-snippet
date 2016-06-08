@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@site_account">
 <meta name="twitter:creator" content="@individual_account">
@@ -10,9 +10,9 @@
 <!-- More info: https://dev.twitter.com/cards/getting-started -->
 <!-- Validate: https://dev.twitter.com/docs/cards/validation/validator -->
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>head-twitter</tabTrigger>
-  <description>HEAD Twitter</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.html, source.php</scope>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>head-twitter</tabTrigger>
+	<description>HEAD Twitter</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.html, source.php</scope>
 </snippet>

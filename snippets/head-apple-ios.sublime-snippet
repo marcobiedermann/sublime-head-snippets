@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 <!-- Smart App Banner -->
 <meta name="apple-itunes-app" content="app-id=APP_ID,affiliate-data=AFFILIATE_ID,app-argument=SOME_TEXT">
 
@@ -22,9 +22,9 @@
 
 <!-- More info: https://developer.apple.com/safari/library/documentation/appleapplications/reference/safarihtmlref/articles/metatags.html -->
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>head-ios</tabTrigger>
-  <description>HEAD Apple iOS</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.html, source.php</scope>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>head-ios</tabTrigger>
+	<description>HEAD Apple iOS</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.html, source.php</scope>
 </snippet>

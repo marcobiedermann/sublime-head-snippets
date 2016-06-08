@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 <!-- Document Title -->
 <title>Page Title</title>
 
@@ -11,15 +11,15 @@
 
 <!-- In-document CSS -->
 <style>
-  /* ... */
+	/* ... */
 </style>
 
 <!-- JavaScript -->
 <script src="script.js"></script>
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>head-elements</tabTrigger>
-  <description>HEAD Elements</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.html, source.php</scope>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>head-elements</tabTrigger>
+	<description>HEAD Elements</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.html, source.php</scope>
 </snippet>

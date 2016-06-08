@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 <!-- iOS -->
 <meta property="al:ios:url" content="applinks://docs">
 <meta property="al:ios:app_store_id" content="12345">
@@ -12,9 +12,9 @@
 <meta property="al:web:url" content="http://applinks.org/documentation">
 <!-- More info: http://applinks.org/documentation/ -->
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>head-applinks</tabTrigger>
-  <description>HEAD App Links</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.html, source.php</scope>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>head-applinks</tabTrigger>
+	<description>HEAD App Links</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.html, source.php</scope>
 </snippet>

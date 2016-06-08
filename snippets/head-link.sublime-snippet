@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 <link rel="canonical" href="https://example.com/page.html">
 <link rel="shortlink" href="https://example.com/?p=42">
 <link rel="amphtml" href="https://example.com/path/to/amp-version.html">
@@ -41,9 +41,9 @@
 <link rel="preload" href="image.png">
 <!-- More info: https://css-tricks.com/prefetching-preloading-prebrowsing/ -->
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>head-link</tabTrigger>
-  <description>HEAD Link</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.html, source.php</scope>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>head-link</tabTrigger>
+	<description>HEAD Link</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.html, source.php</scope>
 </snippet>

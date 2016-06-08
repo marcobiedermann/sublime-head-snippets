@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta http-equiv="cleartype" content="on">
 <meta name="skype_toolbar" content="skype_toolbar_parser_compatible">
@@ -29,9 +29,9 @@
 <meta name="msapplication-TileImage" content="path/to/tileimage.jpg">
 <meta name="msapplication-window" content="width=1024;height=768">
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>head-ie</tabTrigger>
-  <description>HEAD Internet Explorer</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.html, source.php</scope>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>head-ie</tabTrigger>
+	<description>HEAD Internet Explorer</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.html, source.php</scope>
 </snippet>

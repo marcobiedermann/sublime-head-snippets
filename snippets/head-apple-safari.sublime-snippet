@@ -1,11 +1,11 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 <!-- Pinned Site -->
 <link rel="mask-icon" href="path/to/icon.svg" color="red">
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>head-safari</tabTrigger>
-  <description>HEAD Apple Safari</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.html, source.php</scope>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>head-safari</tabTrigger>
+	<description>HEAD Apple Safari</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.html, source.php</scope>
 </snippet>

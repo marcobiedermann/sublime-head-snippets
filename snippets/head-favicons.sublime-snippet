@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 <!-- For IE 10 and below -->
 <!-- No link, just place a file called favicon.ico in the root directory -->
 
@@ -11,9 +11,9 @@
 <link rel="icon" href="path/to/favicon-192.png" sizes="192x192" type="image/png">
 <!-- More info: https://bitsofco.de/all-about-favicons-and-touch-icons/ -->
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>head-favicon</tabTrigger>
-  <description>HEAD Favicon</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.html, source.php</scope>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>head-favicon</tabTrigger>
+	<description>HEAD Favicon</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.html, source.php</scope>
 </snippet>
