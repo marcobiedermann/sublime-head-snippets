@@ -1,84 +1,84 @@
 <snippet>
 	<content><![CDATA[
 <meta charset="utf-8">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="${1:ie=edge}">
+<meta name="viewport" content="${2:width=device-width, initial-scale=1, shrink-to-fit=no}">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 <!-- Allows control over where resources are loaded from -->
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+<meta http-equiv="Content-Security-Policy" content="${3:default-src 'self'}">
 <!-- Place as early in the document as possible -->
 <!-- Only applies to content below this tag -->
 
 <!-- Name of web application (only should be used if the website is used as an app) -->
-<meta name="application-name" content="Application Name">
+<meta name="application-name" content="${4:Application Name}">
 
 <!-- Short description of the page (limit to 150 characters) -->
 <!-- In *some* situations this description is used as a part of the snippet shown in the search results. -->
-<meta name="description" content="A description of the page">
+<meta name="description" content="${5:A description of the page}">
 
 <!-- Control the behavior of search engine crawling and indexing -->
-<meta name="robots" content="index,follow,noodp"><!-- All Search Engines -->
-<meta name="googlebot" content="index,follow"><!-- Google Specific -->
+<meta name="robots" content="${6:index,follow,noodp}"><!-- All Search Engines -->
+<meta name="googlebot" content="${7:index,follow}"><!-- Google Specific -->
 
 <!-- Tells Google not to show the sitelinks search box -->
-<meta name="google" content="nositelinkssearchbox">
+<meta name="google" content="${8:nositelinkssearchbox}">
 
 <!-- Tells Google not to provide a translation for this page -->
-<meta name="google" content="notranslate">
+<meta name="google" content="${9:notranslate}">
 
 <!-- Verify ownership for Google Search Console -->
-<meta name="google-site-verification" content="verification_token">
+<meta name="google-site-verification" content="${10:verification_token}">
 
 <!-- Used to name software used to build the website (i.e. - Wordpress, Dreamweaver) -->
-<meta name="generator" content="program">
+<meta name="generator" content="${11:program}">
 
 <!-- Short description of your sites subject -->
-<meta name="subject" content="your website's subject">
+<meta name="subject" content="${12:your website's subject}">
 
 <!-- Very short sentence describing the purpose of the website -->
-<meta name="abstract" content="">
+<meta name="abstract" content="${12}">
 
 <!-- Describes the topic of the website -->
-<meta name="topic" content="">
+<meta name="topic" content="${14}">
 
 <!-- Brief summary of the company or purpose of the website -->
-<meta name="summary" content="">
+<meta name="summary" content="${15}">
 
 <!-- A deprecated tag that does the same as the keywords meta tag -->
-<meta name="classification" content="business">
+<meta name="classification" content="${16:business}">
 
 <!-- Full domain name or web address -->
-<meta name="url" content="https://example.com/">
+<meta name="url" content="${17:https://example.com/}">
 
 <!-- Does the same as URL, older and not supported -->
-<meta name="identifier-URL" content="https://example.com/">
+<meta name="identifier-URL" content="${18:https://example.com/}">
 
-<meta name="directory" content="submission">
+<meta name="directory" content="${19:submission}">
 
 <!-- Does the same function as the keywords tag -->
-<meta name="category" content="">
+<meta name="category" content="${20:}">
 
 <!-- Makes sure your website shows up in all countries and languages -->
-<meta name="coverage" content="Worldwide">
+<meta name="coverage" content="${21:Worldwide}">
 
 <!-- Does the same as the coverage tag -->
-<meta name="distribution" content="Global">
+<meta name="distribution" content="${22:Global}">
 
 <!-- Gives a general age rating based on sites content -->
-<meta name="rating" content="General">
+<meta name="rating" content="${23:General}">
 
 <!-- Allows control over how referrer information is passed -->
-<meta name="referrer" content="never">
+<meta name="referrer" content="${24:never}">
 
 <!-- Disable automatic detection and formatting of possible phone numbers -->
-<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="${25:telephone=no}">
 
 <!-- Geo tags -->
-<meta name="ICBM" content="latitude, longitude">
-<meta name="geo.position" content="latitude;longitude">
-<meta name="geo.region" content="country[-state]"><!-- Country code (ISO 3166-1): mandatory, state code (ISO 3166-2): optional; eg. content="US" / content="US-NY" -->
-<meta name="geo.placename" content="city/town"><!-- eg. content="New York City" -->
+<meta name="ICBM" content="${26:latitude, longitude}">
+<meta name="geo.position" content="${27:latitude;longitude}">
+<meta name="geo.region" content="${28:country[-state]}"><!-- Country code (ISO 3166-1): mandatory, state code (ISO 3166-2): optional; eg. content="US" / content="US-NY" -->
+<meta name="geo.placename" content="${29:city/town}"><!-- eg. content="New York City" -->
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>head-meta</tabTrigger>

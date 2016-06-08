@@ -1,19 +1,19 @@
 <snippet>
 	<content><![CDATA[
 <!-- Locks the screen into the specified orientation -->
-<meta name="screen-orientation" content="landscape/portrait">
+<meta name="screen-orientation" content="${1:landscape/portrait}">
 <!-- Display this page in fullscreen -->
-<meta name="full-screen" content="yes">
+<meta name="full-screen" content="${2:yes}">
 <!-- UC browser will display images even if in "text mode" -->
-<meta name="imagemode" content="force">
+<meta name="imagemode" content="${3:force}">
 <!-- Page will be displayed in "application mode"(fullscreen,forbiding gesture, etc.) -->
-<meta name="browsermode" content="application">
+<meta name="browsermode" content="${4:application}">
 <!-- Disabled the UC browser's "night mode" in this page -->
-<meta name="nightmode" content="disable">
+<meta name="nightmode" content="${5:disable}">
 <!-- Simplify the page to reduce data transfer -->
-<meta name="layoutmode" content="fitscreen">
+<meta name="layoutmode" content="${6:fitscreen}">
 <!-- Disable the UC browser's feature of "scaling font up when there are many words in this page" -->
-<meta name="wap-font-scale" content="no">
+<meta name="wap-font-scale" content="${7:no}">
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>head-uc</tabTrigger>

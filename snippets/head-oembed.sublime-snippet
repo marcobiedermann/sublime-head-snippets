@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-<link rel="alternate" type="application/json+oembed" href="http://example.com/services/oembed?url=http%3A%2F%2Fexample.com%2Ffoo%2F&amp;format=json" title="oEmbed Profile: JSON">
-<link rel="alternate" type="text/xml+oembed" href="http://example.com/services/oembed?url=http%3A%2F%2Fexample.com%2Ffoo%2F&amp;format=xml" title="oEmbed Profile: XML">
+<link rel="alternate" type="application/json+oembed" href="${1:http://example.com/services/oembed?url=http%3A%2F%2Fexample.com%2Ffoo%2F&amp;format=json}" title="${2:oEmbed Profile: JSON}">
+<link rel="alternate" type="text/xml+oembed" href="${3:http://example.com/services/oembed?url=http%3A%2F%2Fexample.com%2Ffoo%2F&amp;format=xml}" title="${4:oEmbed Profile: XML}">
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>head-oebmed</tabTrigger>

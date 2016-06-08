@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-<link href="https://plus.google.com/+YourPage" rel="publisher">
-<meta itemprop="name" content="Content Title">
-<meta itemprop="description" content="Content description less than 200 characters">
-<meta itemprop="image" content="https://example.com/image.jpg">
+<link href="https://plus.google.com/+${1:YourPage}" rel="publisher">
+<meta itemprop="name" content="${2:Content Title}">
+<meta itemprop="description" content="${3:Content description less than 200 characters}">
+<meta itemprop="image" content="${4:https://example.com/image.jpg}">
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>head-gplus</tabTrigger>

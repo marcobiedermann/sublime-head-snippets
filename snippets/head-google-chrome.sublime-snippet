@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/APP_ID">
+<link rel="chrome-webstore-item" href="${1:https://chrome.google.com/webstore/detail/APP_ID}">
 
 <!-- Disable translation prompt -->
-<meta name="google" value="notranslate">
+<meta name="google" value="${2:notranslate}">
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>head-chrome</tabTrigger>

@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-<meta name="theme-color" content="#E64545">
+<meta name="theme-color" content="${1:#E64545}">
 <!-- Add to homescreen -->
-<meta name="mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="${2:yes}">
 <!-- More info: https://developer.chrome.com/multidevice/android/installtohomescreen -->
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

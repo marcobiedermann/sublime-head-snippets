@@ -1,12 +1,12 @@
 <snippet>
 	<content><![CDATA[
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@site_account">
-<meta name="twitter:creator" content="@individual_account">
-<meta name="twitter:url" content="https://example.com/page.html">
-<meta name="twitter:title" content="Content Title">
-<meta name="twitter:description" content="Content description less than 200 characters">
-<meta name="twitter:image" content="https://example.com/image.jpg">
+<meta name="twitter:card" content="${1:summary}">
+<meta name="twitter:site" content="@${2:site_account}">
+<meta name="twitter:creator" content="@${3:individual_account}">
+<meta name="twitter:url" content="${4:https://example.com/page.html}">
+<meta name="twitter:title" content="${5:Content Title}">
+<meta name="twitter:description" content="${6:Content description less than 200 characters}">
+<meta name="twitter:image" content="${7:https://example.com/image.jpg}">
 <!-- More info: https://dev.twitter.com/cards/getting-started -->
 <!-- Validate: https://dev.twitter.com/docs/cards/validation/validator -->
 ]]></content>

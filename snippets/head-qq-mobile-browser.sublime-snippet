@@ -1,11 +1,11 @@
 <snippet>
 	<content><![CDATA[
 <!-- Locks the screen into the specified orientation -->
-<meta name="x5-orientation" content="landscape/portrait">
+<meta name="x5-orientation" content="${1:landscape/portrait}">
 <!-- Display this page in fullscreen -->
-<meta name="x5-fullscreen" content="true">
+<meta name="x5-fullscreen" content="${2:true}">
 <!-- Page will be displayed in "application mode"(fullscreen,etc.) -->
-<meta name="x5-page-mode" content="app">
+<meta name="x5-page-mode" content="${3:app}">
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>head-qq</tabTrigger>

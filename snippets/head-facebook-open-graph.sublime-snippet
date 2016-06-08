@@ -1,14 +1,14 @@
 <snippet>
 	<content><![CDATA[
-<meta property="fb:app_id" content="123456789">
-<meta property="og:url" content="https://example.com/page.html">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Content Title">
-<meta property="og:image" content="https://example.com/image.jpg">
-<meta property="og:description" content="Description Here">
-<meta property="og:site_name" content="Site Name">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="">
+<meta property="fb:app_id" content="${1:123456789}">
+<meta property="og:url" content="${2:https://example.com/page.html}">
+<meta property="og:type" content="${3:website}">
+<meta property="og:title" content="${4:Content Title}">
+<meta property="og:image" content="${5:https://example.com/image.jpg}">
+<meta property="og:description" content="${6:Description Here}">
+<meta property="og:site_name" content="${7:Site Name}">
+<meta property="og:locale" content="${8:en_US}">
+<meta property="article:author" content="${9}">
 <!-- Facebook: https://developers.facebook.com/docs/sharing/webmasters#markup -->
 <!-- Open Graph: http://ogp.me/ -->
 ]]></content>
