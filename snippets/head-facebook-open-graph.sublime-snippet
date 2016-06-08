@@ -16,5 +16,5 @@
 	<tabTrigger>head-fbog</tabTrigger>
 	<description>HEAD Facebook / Open Graph</description>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.html, source.php</scope>
+	<scope>text.html(.basic), source.php</scope>
 </snippet>

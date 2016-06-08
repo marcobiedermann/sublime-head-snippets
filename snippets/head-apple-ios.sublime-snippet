@@ -26,5 +26,5 @@
 	<tabTrigger>head-ios</tabTrigger>
 	<description>HEAD Apple iOS</description>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.html, source.php</scope>
+	<scope>text.html(.basic), source.php</scope>
 </snippet>

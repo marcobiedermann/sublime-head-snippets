@@ -16,5 +16,5 @@
 	<tabTrigger>head-applinks</tabTrigger>
 	<description>HEAD App Links</description>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.html, source.php</scope>
+	<scope>text.html(.basic), source.php</scope>
 </snippet>

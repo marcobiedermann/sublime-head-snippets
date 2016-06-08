@@ -11,5 +11,5 @@
 	<tabTrigger>head-qq</tabTrigger>
 	<description>HEAD QQ Mobile Browser</description>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.html, source.php</scope>
+	<scope>text.html(.basic), source.php</scope>
 </snippet>

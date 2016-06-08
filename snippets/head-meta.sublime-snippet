@@ -84,5 +84,5 @@
 	<tabTrigger>head-meta</tabTrigger>
 	<description>HEAD Meta</description>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.html, source.php</scope>
+	<scope>text.html(.basic), source.php</scope>
 </snippet>

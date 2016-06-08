@@ -7,5 +7,5 @@
 	<tabTrigger>head-360</tabTrigger>
 	<description>HEAD 360 Browser</description>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.html, source.php</scope>
+	<scope>text.html(.basic), source.php</scope>
 </snippet>
