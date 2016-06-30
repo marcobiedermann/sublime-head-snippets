@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<!-- select rendering engine in order -->
+meta(name='renderer', content='${1:webkit|ie-comp|ie-stand}')
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>head-360</tabTrigger>
+	<description>HEAD 360 Browser</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.jade</scope>
+</snippet>

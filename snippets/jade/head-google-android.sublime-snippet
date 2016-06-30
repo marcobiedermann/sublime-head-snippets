@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+meta(name='theme-color', content='${1:#E64545}')
+<!-- Add to homescreen -->
+meta(name='mobile-web-app-capable', content='${2:yes}')
+<!-- More info: https://developer.chrome.com/multidevice/android/installtohomescreen -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>head-android</tabTrigger>
+	<description>HEAD Google Android</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.jade</scope>
+</snippet>

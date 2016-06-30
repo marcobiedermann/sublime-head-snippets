@@ -1,0 +1,86 @@
+<snippet>
+	<content><![CDATA[
+<!-- Helps prevent duplicate content issues -->
+link(rel='canonical', href='${1:https://example.com/2010/06/9-things-to-do-before-entering-social-media.html}')
+
+<!-- Used to be included before the icon link, but is deprecated and no longer is used -->
+link(rel='shortlink', href='${2:https://example.com/?p=42}')
+
+<!-- Links to an AMP HTML version of the current document -->
+link(rel='amphtml', href='${3:https://example.com/path/to/amp-version.html}')
+
+<!-- Points to a CSS stylesheet -->
+link(rel='stylesheet', href='${4:https://example.com/styles.css}')
+
+<!-- Links to a JSON file that specifies 'installation' credentials for web applications -->
+link(rel='manifest', href='${5:manifest.json}')
+
+<!-- Links to the author of the document -->
+link(rel='author', href='${6:humans.txt}')
+
+<!-- Refers to a copyright statement that applies to the links context -->
+link(rel='copyright', href='${7:copyright.html}')
+
+<!-- Gives a reference to a location in your document that may be in another language -->
+link(rel='alternate', href='${8:https://es.example.com/}', hreflang='${9:es}')
+
+<!-- Gives information about an author or another person -->
+link(rel='me', href='${10:https://google.com/profiles/thenextweb}', type='text/html)
+link(rel='me', href='${11:mailto:name@example.com}')
+link(rel='me', href='${12:sms:+15035550125}')
+
+<!-- Links to a document that contains an archive link to the current document -->
+link(rel='archives', href='${13:https://example.com/2003/05/}', title='${14:May 2003}')
+
+<!-- Links to top level resource in an hierarchical structure -->
+link(rel='index', href='${15:https://example.com/}', title='${16:DeWitt Clinton}')
+
+<!-- Gives the starting point of the document -->
+link(rel='start', href='${17:https://example.com/photos/pattern_recognition_1_about/}', title='${18:Pattern Recognition 1}')
+
+<!-- Leads to the preceding resource of the sequence the current document is in -->
+link(rel='prev', href='${19:https://example.com/opensearch/opensearch-and-openid-a-sure-way-to-get-my-attention/}', title='${20:OpenSearch and OpenID? A sure way to get my attention.}')
+
+<!-- Gives a self reference - useful when the document has multiple possible references -->
+link(rel='self' type='application/atom+xml', href='${21:https://example.com/atomFeed.php?page=3}')
+
+<!-- The first, next, previous, and last documents in a series of documents, respectively -->
+link(rel='first', href='${22:https://example.com/atomFeed.php}')
+link(rel='next', href='${23:https://example.com/atomFeed.php?page=4}')
+link(rel='previous', href='${24:https://example.com/atomFeed.php?page=2}')
+link(rel='last', href='${25:https://example.com/atomFeed.php?page=147}')
+
+<!-- Used when using a 3rd party service to maintain a blog -->
+link(rel='EditURI', href='${26:https://example.com/xmlrpc.php?rsd', type='application/rsd+xml}', title='${27:RSD}')
+
+<!-- Forms an automated comment when another wordpress blog links to your wordpress blog or post -->
+link(rel='pingback', href='${28:https://example.com/xmlrpc.php}')
+
+<!-- Notifies a url when you link to it on your site -->
+link(rel='webmention', href='${29:https://example.com/webmention}')
+
+<!-- Loads in an external HTML file into the current HTML file -->
+link(rel='import', href='${30:component.html}')
+
+<!-- Open Search -->
+link(rel='search', href='${31:/open-search.xml}', type='application/opensearchdescription+xml', title='${32:Search Title}')
+
+<!-- Feeds -->
+link(rel='alternate', href='${33:https://feeds.feedburner.com/example}', type='application/rss+xml', title='${34:RSS}')
+link(rel='alternate', href='${35:https://example.com/feed.atom}', type='application/atom+xml', title='${35:Atom 0.3}')
+
+<!-- Prefetching, preloading, prebrowsing -->
+link(rel='dns-prefetch', href='${36://example.com/}')
+link(rel='preconnect', href='${37:https://www.example.com/}')
+link(rel='prefetch', href='${38:https://www.example.com/}')
+link(rel='prerender', href='${39:https://example.com/}')
+link(rel='subresource', href='${40:styles.css}')
+link(rel='preload', href='${41:image.png}')
+<!-- More info: https://css-tricks.com/prefetching-preloading-prebrowsing/ -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>head-link</tabTrigger>
+	<description>HEAD Link</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.jade</scope>
+</snippet>
