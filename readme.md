@@ -47,6 +47,10 @@ Start typing `head-` in HTML, [HAML](http://haml.info/), [Jade](http://jade-lang
 | Twitter | head-twitter |
 | UC Mobile Browser | head-uc |
 
+## Related Projects
+* [HEAD](https://github.com/joshbuchea/HEAD)
+* [Atom HTML Head Snippets](https://github.com/joshbuchea/atom-html-head-snippets)
+
 ## License
 
 Sublime Text HTML Head Snippets Plugin is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
