@@ -25,7 +25,7 @@ git clone https://github.com/marcobiedermann/sublime-head-snippets.git
 
 ## Usage
 
-Start typing `head-` in HTML [Jade](http://jade-lang.com/), or PHP files and the autocomplete windows opens.
+Start typing `head-` in HTML, [HAML](http://haml.info/), [Jade](http://jade-lang.com/), or PHP files and the autocomplete windows opens.
 
 | Head Tags | Snippet code |
 |---|---|

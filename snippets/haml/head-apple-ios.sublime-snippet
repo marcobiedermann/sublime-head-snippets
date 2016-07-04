@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+<!-- Smart App Banner -->
+%meta{:name => "apple-itunes-app", :content => "${1:app-id=APP_ID,affiliate-data=AFFILIATE_ID,app-argument=SOME_TEXT}"}
+<!-- Disable automatic detection and formatting of possible phone numbers -->
+%meta{:name => "format-detection", :content => "${2:telephone=no}"}
+<!-- Add to Home Screen -->
+%meta{:name => "apple-mobile-web-app-capable", :content => "${3:yes}"}
+%meta{:name => "apple-mobile-web-app-status-bar-style", :content => "${4:black}"}
+%meta{:name => "apple-mobile-web-app-title", :content => "${5:App Title}"}
+
+<!-- Touch Icons -->
+%link{:rel => "apple-touch-icon", :href => "${6:path/to/apple-touch-icon.png}"}
+%link{:rel => "apple-touch-icon-precomposed", :href => "${7:path/to/apple-touch-icon-precomposed.png}"}
+<!-- In most cases
+one 180×180px touch icon in the head is enough -->
+<!-- If you use art-direction and/or want to have different content for each device
+you can add more touch icons -->
+
+<!-- Startup Image -->
+%link{:rel => "apple-touch-startup-image", :href => "${8:path/to/startup.png}"}
+
+<!-- More info: https://developer.apple.com/safari/library/documentation/appleapplications/reference/safarihtmlref/articles/metatags.html -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>head-ios</tabTrigger>
+	<description>HEAD Apple iOS</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.haml</scope>
+</snippet>
