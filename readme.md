@@ -1,6 +1,6 @@
 # Sublime Text HTML Head Snippets
 
-[![Package Control](https://img.shields.io/packagecontrol/dt/HTML Head Snippets.svg)](https://packagecontrol.io/packages/HTML%20Head%20Snippets)
+[![Package Control](https://img.shields.io/packagecontrol/dt/HTML%20Head%20Snippets.svg)](https://packagecontrol.io/packages/HTML%20Head%20Snippets)
 
 A Sublime Text snippet library for HTML head elements, from the project [HEAD](https://github.com/joshbuchea/HEAD).
 
